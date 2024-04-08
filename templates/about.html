@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>About Us</h1>
+
+<div>
+    <h2>Scott Anderson and Jack Coyne</h2>
+    <p>Students at The University of Iowa</p>
+    <img src="{{ url_for('static', filename='images/pairprogramming.jpg') }}" alt="Pair Programming" style="width:500px;">
+</div>
+
+{% endblock %}
